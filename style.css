@@ -1,3 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
 body {
-  background-color: grey;
+  background-color: rgb(218, 217, 217);
+  padding: 25px;
+}
+.todo {
+  width: 580px;
+  display: grid;
+  grid-template-rows: 15% 35% 56%;
+  margin: 0 auto;
+}
+
+.create-todo {
+  display: grid;
+  grid-template-rows: 45px 25px 65px;
+}
+
+#task {
+  margin: 15px 0;
+  padding-left: 15px;
+  border: none;
+  width: 565px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.pick-category {
+  margin: 20px 0;
+  display: grid;
+  grid-template-rows: 25px 100px 40px;
+}
+
+.select-category {
+  width: 580px;
+  display: grid;
+  grid-template-columns: 44% 44%;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.category-label {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 70px;
+  width: 235px;
+}
+
+.btn-add {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background: #3276ea;
+  margin-top: 20px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-add:active {
+  background-color: #002f96;
+  transition: all 0.3s;
 }
