@@ -12,7 +12,7 @@ body {
 .todo {
   width: 580px;
   display: grid;
-  grid-template-rows: 15% 35% 56%;
+  grid-template-rows: 60px 125px 240px;
   margin: 0 auto;
 }
 
@@ -69,4 +69,8 @@ body {
 .btn-add:active {
   background-color: #002f96;
   transition: all 0.3s;
+}
+
+li {
+  list-style-type: none;
 }
